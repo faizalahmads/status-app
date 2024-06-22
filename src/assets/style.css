@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-app {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page-login,
+.page-register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.page-login-header,
+.page-register-header {
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.page-login-main,
+.page-register-main {
+  border: 2px solid #000000;
+  padding: 1.5rem 1.5rem;
+  width: 40vh;
+  font-size: 20px;
+}
+
+.login-input,
+.register-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-input input,
+.register-input input {
+  display: block;
+  width: 100%;
+  padding: 12px 8px;
+  margin: 8px 0;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.login-input button,
+.register-input button {
+  width: 100%;
+  padding: 12px 8px;
+  margin: 8px 0;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #2c78f2;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.navigation {
+  padding: 6px;
+  min-height: 55px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.navigation img {
+  width: 32px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.navigation nav {
+  flex: 1;
+}
+
+.navigation nav a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+.navigation button {
+  border: 0;
+  background-color: transparent;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.page-home {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.page-home input {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ffffff;
+  width: 100%;
+  resize: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.status-input input{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ffffff;
+  width: 100%;
+  resize: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.status-input textarea {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ffffff;
+  padding: 8px;
+  width: 100%;
+  height: 150px;
+  resize: none;
+  font-size: 15px;
+}
+
+.status-input button {
+  background-color: #2c78f2;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 15px;
+  border: 0;
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.status-list {
+  margin-bottom: 32px;
+}
+
+.status-item {
+  border: 1px solid #dddddd; 
+  margin: 1rem 0;
+  padding: 1rem; 
+  border-radius: 8px solid #ffffff; 
+  cursor: pointer 
+}
+
+.status-header {
+  display: flex; 
+  justify-content: space-between; 
+  margin-bottom: 0.5rem
+}
+
+.status-header.category {
+  font-size: 14px;
+  color: #888888
+}
+
+.status-header.title {
+  font-size: 1.5rem;
+  margin: 0.5rem 0
+}
+
+.status-header.posted-at {
+  font-size: 14px;
+  color: #888888
+}
+
+.status-body {
+  margin-bottom: 0.5rem 0;
+}
+
+.status-footer {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between
+}
+
+.vote-buttons.vote-up {
+  margin-right: 0.5rem;
+  color: isUpVoted ? green: black
+}
+
+.vote-buttons.vote-down {
+  margin-right: 0.5rem;
+  color: isDownVoted ? red: black
+}
+
+.total-comments {
+  margin-right: 0.5rem;
+}
+
+.status-footer img{
+  width: 32px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.container-app {
+  max-width: 800px;
+  margin: 0 auto;
+}
