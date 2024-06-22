@@ -1,5 +1,5 @@
-import api from '../../utils/api';
-import { setUserAuthActionCreator } from '../userAuth/action';
+import api from '../../utils/api.js';
+import { setUserAuthActionCreator } from '../userAuth/action.js';
 
 const ActionType = {
   SET_IS_PRELOAD: 'SET_IS_PRELOAD',

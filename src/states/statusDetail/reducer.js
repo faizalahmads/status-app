@@ -1,4 +1,4 @@
-import { ActionType } from './action';
+import { ActionType } from './action.js';
  
 function statusDetailReducer(statusDetail = null, action = {}) {
   switch (action.type) {

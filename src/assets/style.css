@@ -185,12 +185,10 @@
 
 .vote-buttons.vote-up {
   margin-right: 0.5rem;
-  color: isUpVoted ? green: black
 }
 
 .vote-buttons.vote-down {
   margin-right: 0.5rem;
-  color: isDownVoted ? red: black
 }
 
 .total-comments {

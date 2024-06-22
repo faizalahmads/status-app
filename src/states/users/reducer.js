@@ -1,4 +1,4 @@
-import { ActionType } from './action';
+import { ActionType } from './action.js';
  
 function usersReducer(users = [], action = {}) {
   switch (action.type) {

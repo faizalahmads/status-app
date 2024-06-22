@@ -1,4 +1,4 @@
-import { ActionType } from './action';
+import { ActionType } from './action.js';
  
 export default function statussReducer(threads = {}, action = {}) {
   switch (action.type) {
