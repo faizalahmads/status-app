@@ -5,6 +5,6 @@ import { render } from "@testing-library/react";
 describe("StatusInput", () => {
     it("should render correctly", () => {
         const component = render(<StatusInput addStatus={() => {}} />);
-        expect(component).toBeFalsy();
+        expect(component).toBeTruthy();
     });
 })

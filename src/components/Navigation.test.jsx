@@ -13,6 +13,6 @@ describe("Navigation", () => {
                 />
             </MemoryRouter>
         );
-        expect(component).toBeFalsy();
+        expect(component).toBeTruthy();
     });
 });
