@@ -1,4 +1,4 @@
-import { ActionType } from './action.js';
+import { ActionType } from './action';
 
 function userAuthReducer(userAuth = null, action = {}) {
   switch (action.type) {

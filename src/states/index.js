@@ -1,9 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-import userAuthReducer from './userAuth/reducer.js';
-import isPreloadReducer from './isPreload/reducer.js';
-import statusDetailReducer from './statusDetail/reducer.js';
-import statussReducer from './status/reducer.js';
-import usersReducer from './users/reducer.js';
+import userAuthReducer from './userAuth/reducer';
+import isPreloadReducer from './isPreload/reducer';
+import statusDetailReducer from './statusDetail/reducer';
+import statussReducer from './status/reducer';
+import usersReducer from './users/reducer';
 import { loadingBarReducer } from 'react-redux-loading-bar';
  
 const store = configureStore({
@@ -17,4 +17,4 @@ const store = configureStore({
   },
 });
 
-export default store;
+export default store

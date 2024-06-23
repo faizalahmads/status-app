@@ -8,7 +8,7 @@ import Registerpage from './pages/PageRegister';
 import { Route, Routes } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { asyncPreloadProcess } from './states/isPreload/action';
-import { asyncUnsetUserAuth } from './states/userAuth/action.js';
+import { asyncUnsetUserAuth } from './states/userAuth/action';
 
 function App() {
   const { userAuth, isPreload = false } = useSelector((state) => state);

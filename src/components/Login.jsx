@@ -8,8 +8,8 @@ function Login({ login }) {
 
   return (
     <form className="login-input">
-      <input type="text" value={email} onChange={emailChange} placeholder="Email" />
-      <input type="password" value={password} onChange={passwordChange} placeholder="Password" />
+      <input type="text" name='email' value={email} onChange={emailChange} placeholder="Email" />
+      <input type="password" name='password' value={password} onChange={passwordChange} placeholder="Password" />
       <button type="button" onClick={() => login({ email, password })}>Login</button>
     </form>
   );

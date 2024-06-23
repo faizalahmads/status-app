@@ -1,4 +1,4 @@
-import api from '../../utils/api.js';
+import api from '../../utils/api';
 
 const ActionType = {
   SET_USER_AUTH: 'SET_USER_AUTH',

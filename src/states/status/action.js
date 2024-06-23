@@ -1,5 +1,5 @@
 import { hideLoading, showLoading } from 'react-redux-loading-bar';
-import api from '../../utils/api.js';
+import api from '../../utils/api';
 
 const ActionType = {
   RECEIVE_STATUSS: 'RECEIVE_STATUSS',
