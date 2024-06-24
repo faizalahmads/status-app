@@ -1,3 +1,10 @@
+/**
+ * Skenario Pengujian:
+ * 
+ * Navigation:
+ * - Memastikan komponen Navigation dirender dengan benar ketika diberikan properti userAuth dan signOut yang sesuai.
+ */
+
 import { render } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
 import { MemoryRouter } from "react-router-dom";

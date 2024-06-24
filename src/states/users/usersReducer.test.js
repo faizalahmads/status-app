@@ -1,8 +1,16 @@
+/**
+ * Skenario Pengujian:
+ * 
+ * usersReducer:
+ * - Mengatur daftar pengguna ketika menerima action dengan tipe RECEIVE_USERS.
+ * - Mengembalikan state awal ketika menerima action dengan tipe yang tidak dikenal.
+ */
+
 import usersReducer from './reducer';
 import { ActionType } from './action';
 
 describe('usersReducer', () => {
-  it('harus mengatur daftar pengguna ketika menerima RECEIVE_USERS', () => {
+  it('should set users list when receiving RECEIVE_USERS action', () => {
     const initialState = [];
     const action = {
       type: ActionType.RECEIVE_USERS,
@@ -13,7 +21,7 @@ describe('usersReducer', () => {
     expect(usersReducer(initialState, action)).toEqual(expectedState);
   });
 
-  it('harus mengembalikan state awal ketika menerima action yang tidak dikenal', () => {
+  it('should return initial state when receiving unknown action', () => {
     const initialState = [{ id: 1, name: 'User 1' }];
     const action = { type: 'UNKNOWN_ACTION' };
     const expectedState = initialState;

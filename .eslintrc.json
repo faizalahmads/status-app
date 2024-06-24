@@ -22,7 +22,17 @@
     "cypress"
   ],
   "rules": {
-    // Tambahkan aturan khusus Anda di sini
+    "react/jsx-filename-extension": "off",
+    "no-alert": "off",
+    "comma-dangle": "off",
+    "no-underscore-dangle": "off",
+    "indent": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-props-no-spreading": "off",
+    "object-curly-newline": "off",
+    "no-undef": "off",
+    "no-unused-vars": "off",
+    "import/no-extraneous-dependencies": "off"
   },
   "settings": {
     "react": {
